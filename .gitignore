@@ -1,0 +1,14 @@
+venv310/
+tf_env/
+
+__pycache__/
+*.pyc
+
+network_data.csv
+alerts.csv
+
+*.h5
+*.keras
+
+.DS_Store
+*.log

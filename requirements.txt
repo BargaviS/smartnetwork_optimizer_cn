@@ -1,0 +1,8 @@
+streamlit
+pandas
+matplotlib
+scapy
+pyttsx3
+rich
+tensorflow
+  
