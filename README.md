@@ -1,4 +1,5 @@
-Smart Network Optimizer
+**Smart Network Optimizer**
+
 🌐 Overview
 
 Smart Network Optimizer is an AI-powered system designed to monitor, predict, and optimize network performance in real time.
