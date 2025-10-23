@@ -1,0 +1,23 @@
+# run_all.py
+import subprocess
+import sys
+import os
+
+print("📁 Running Smart Network Optimizer...")
+
+# Step 1: Capture data
+if os.path.exists("capture.py"):
+    subprocess.run([sys.executable, "capture.py"])
+
+# Step 2: Train / predict
+if os.path.exists("predict.py"):
+    subprocess.run([sys.executable, "predict.py"])
+
+# Step 3: Alerts
+if os.path.exists("alert.py"):
+    subprocess.run([sys.executable, "alert.py"])
+
+# Step 4: Launch dashboard
+if os.path.exists("dashboard.py"):
+    print("🚀 Launching Streamlit dashboard...")
+    subprocess.run(["streamlit", "run", "dashboard.py", "--server.headless", "true"])
